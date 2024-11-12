@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Spice - Authentic Indian Spices</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Go Spice</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#shop">Shop</a>
+                <a href="#account">Account</a>
+                <button class="cta">Sign In / Sign Up</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Experience Authentic Indian Spices</h2>
+            <p>Hand-picked, organic, and fresh spices directly from the farms to your kitchen.</p>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2>About Go Spice</h2>
+        <p>We bring you the finest, freshest, and most flavorful spices, harvested directly from Indian farms. Our spices are pure, natural, and will take your culinary experience to the next level.</p>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="shop" class="shop-section">
+        <h2>Our Premium Spices</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250?text=Turmeric" alt="Turmeric">
+                <h3>Turmeric Powder</h3>
+                <p>$12.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250?text=Chili+Powder" alt="Red Chili Powder">
+                <h3>Red Chili Powder</h3>
+                <p>$10.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250?text=Garam+Masala" alt="Garam Masala">
+                <h3>Garam Masala</h3>
+                <p>$14.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250?text=Cardamom" alt="Cardamom">
+                <h3>Cardamom</h3>
+                <p>$16.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Account Section -->
+    <section id="account" class="account-section">
+        <h2>My Account</h2>
+        <p>Login to manage your orders, save your favorites, and more.</p>
+        <button class="account-btn">Login / Sign Up</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Go Spice. All Rights Reserved.</p>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
